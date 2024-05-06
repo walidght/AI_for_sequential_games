@@ -7,7 +7,7 @@ def executer_partie_morpion(jeu, strategie1, strategie2):
     """Exécute une partie de morpion entre deux joueurs utilisant la stratégie aléatoire.
     @param strategie1 (Strategie): La première stratégie de jeu.
     @param strategie2 (Strategie): La deuxième stratégie de jeu.
-    @return symbole_gagnant (str): Le symbole du joueur gagnant ('X' ou 'O'), ou ' ' en cas de match nul.
+    @return symbole_gagnant (str): Le symbole du joueur gagnant ('X' ou 'O'), ou '' en cas de match nul.
     """
 
     # Boucle principale de jeu
@@ -31,7 +31,7 @@ def executer_partie_morpion(jeu, strategie1, strategie2):
     elif Morpion.victoire(jeu, 'O'):
         return 'O'
     else:
-        return ' '  # Match nul
+        return ''
 
 
 def executer_partie_allumettes(jeu, strategie1, strategie2):

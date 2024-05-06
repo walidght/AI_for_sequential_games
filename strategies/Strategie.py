@@ -1,6 +1,5 @@
 from jeux.JeuSequentiel import JeuSequentiel
 
-
 class Strategie:
     """
     Représente une stratégie de jeu.
